@@ -1,0 +1,38 @@
+---
+title: "BDI Code Clinic"
+subtitle: "About the Club"
+---
+Some text from Rmd.
+
+### When:
+We meet the first Friday of every month from 12:00 to 13:30. 
+
+### Where:
+
+```{r leaflet-map, echo=FALSE, eval=TRUE}
+library(leaflet)
+content <- paste(sep = "<br/>",
+  "<b><a href='https://bdicodeclub.netlify.com/'>BDI Code Club</a></b>",
+  "Room Info",
+  "Big Data Institute, Old Road Campus"
+)
+
+lat <- 51.752802; lng <- -1.214885
+bgm <- providers$OpenStreetMap.Mapnik
+
+icn <- icons <- awesomeIcons(
+  icon = 'fa-location-arrow',
+  iconColor = "#FFFFFF",
+  library = 'fa',
+  markerColor = "darkblue"
+)
+
+m <- leaflet() %>% 
+  setView(lng = lng, lat = lat, zoom = 18) %>% 
+  addAwesomeMarkers(lng, lat, popup = content, icon = icn,
+             options = popupOptions(closeButton = FALSE))  %>% 
+  # addTiles() %>% 
+  addProviderTiles(bgm) %>% 
+  addMiniMap()
+m
+```
