@@ -63,8 +63,8 @@ After this tutorial you will be able to:
   "description" : "Note\rPlease open your R-Studio as an administrator.\n\rOverview\rIn this tutorial, we introduce a package to use multiple cores of your system.\nAfter this tutorial you will be able to:\n\rTrain a neural network model without using multicores\rTrain a neural network model without using multicores\rCompare results\r\r\rUsing R Markdown\rThe tutorial that follows was created using R Markdown. As an exercise in using R Markdown, here, we ask you to save your work in an R Markdown file.",
   "inLanguage" : "en",
   "wordCount":  692 ,
-  "datePublished" : "2019-10-04T00:00:00",
-  "dateModified" : "2019-10-04T00:00:00",
+  "datePublished" : "2019-10-01T00:00:00",
+  "dateModified" : "2019-10-01T00:00:00",
   "image" : "\/img\/bdi-logo.jpg",
   "keywords" : [ "caret, parallel" ],
   "mainEntityOfPage" : "\/post\/utilizing-the-maximum-computation-power-of-your-computer-on-r\/",
@@ -231,7 +231,7 @@ After this tutorial you will be able to:
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 4, 2019
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 1, 2019
   
   
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;4&nbsp;minutes
@@ -346,7 +346,7 @@ max(model$results$Accuracy, na.rm = TRUE)</code></pre>
 print(&quot;Training time...&quot;)</code></pre>
 <pre><code>## [1] &quot;Training time...&quot;</code></pre>
 <pre class="r"><code>training_time-start_time</code></pre>
-<pre><code>## Time difference of 1.369085 mins</code></pre>
+<pre><code>## Time difference of 1.420509 mins</code></pre>
 <p><strong>Question</strong>: How much time is used by the model to train?</p>
 </div>
 <div id="set-the-number-of-cores-for-domc" class="section level1">
@@ -372,7 +372,7 @@ max(model$results$Accuracy, na.rm = TRUE)</code></pre>
 print(&quot;Training time...&quot;)</code></pre>
 <pre><code>## [1] &quot;Training time...&quot;</code></pre>
 <pre class="r"><code>training_time-start_time</code></pre>
-<pre><code>## Time difference of 1.337989 mins</code></pre>
+<pre><code>## Time difference of 1.37038 mins</code></pre>
 <p><strong>Question:</strong> How much time is taken by the model to train with 6 cores?</p>
 </div>
 <div id="cleaning" class="section level1">

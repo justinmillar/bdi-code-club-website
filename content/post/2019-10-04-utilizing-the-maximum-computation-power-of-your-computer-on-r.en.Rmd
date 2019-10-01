@@ -1,7 +1,7 @@
 ---
 title: Utilizing the maximum computation power of your computer on R
 author: Sanjay Rathee
-date: '2019-10-04'
+date: '2019-10-01'
 slug: utilizing-the-maximum-computation-power-of-your-computer-on-r
 categories: []
 tags:
