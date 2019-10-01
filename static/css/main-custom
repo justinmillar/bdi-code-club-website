@@ -137,8 +137,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #1D2C4F;
-  border-bottom: 1px solid #EAEAEA;
+  background: #002147;
+  border-bottom: 1px solid #002147;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -151,14 +151,14 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #FFFFFF;
+  color: #404040;
 }
 
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #D2232A;
+  color: #0085a1;
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -358,7 +358,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #D2232A;
+  color: #0085a1;
 }
 
 .post-preview .post-title {
@@ -449,7 +449,7 @@ footer .theme-by {
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #D2232A;
+  color: #008AFF;
   background-color: #CCC;
 }
 
@@ -765,7 +765,7 @@ div.splitbox div.right {
     padding: 15px 25px;
   }
 }
-.disqus-comments button:hover, 
+.disqus-comments button:hover,
 .disqus-comments button:focus {
   color: #FFF;
   background: #0085a1;
