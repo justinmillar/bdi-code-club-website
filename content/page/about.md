@@ -1,6 +1,7 @@
 ---
 comments: false
-title: About the BDI Code Clinic
+subtitle: About us
+title: BDI Code Club
 ---
 
-Some info here. 
+Some info here.
