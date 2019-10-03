@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BDI Code Club</title>
+    <link>/</link>
+    <description>Recent content on BDI Code Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Utilizing the maximum computation power of your computer on R</title>
+      <link>/post/utilizing-the-maximum-computation-power-of-your-computer-on-r/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/utilizing-the-maximum-computation-power-of-your-computer-on-r/</guid>
+      <description>NotePlease open your R-Studio as an administrator.
+OverviewIn this tutorial, we introduce a package to use multiple cores of your system.
+After this tutorial you will be able to:
+Train a neural network model without using multicoresTrain a neural network model without using multicoresCompare resultsUsing R MarkdownThe tutorial that follows was created using R Markdown. As an exercise in using R Markdown, here, we ask you to save your work in an R Markdown file.</description>
+    </item>
+    
+    <item>
+      <title>BDI Code Clinic</title>
+      <link>/page/about-full/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about-full/</guid>
+      <description>Some text from Rmd.
+When:We meet the first Friday of every month from 12:00 to 13:30.
+Where:{&#34;x&#34;:{&#34;options&#34;:{&#34;crs&#34;:{&#34;crsClass&#34;:&#34;L.CRS.EPSG3857&#34;,&#34;code&#34;:null,&#34;proj4def&#34;:null,&#34;projectedBounds&#34;:null,&#34;options&#34;:{}}},&#34;setView&#34;:[[51.752802,-1.214885],18,[]],&#34;calls&#34;:[{&#34;method&#34;:&#34;addAwesomeMarkers&#34;,&#34;args&#34;:[51.752802,-1.214885,{&#34;icon&#34;:&#34;fa-location-arrow&#34;,&#34;markerColor&#34;:&#34;darkblue&#34;,&#34;iconColor&#34;:&#34;#FFFFFF&#34;,&#34;spin&#34;:false,&#34;squareMarker&#34;:false,&#34;iconRotate&#34;:0,&#34;font&#34;:&#34;monospace&#34;,&#34;prefix&#34;:&#34;fa&#34;},null,null,{&#34;maxWidth&#34;:300,&#34;minWidth&#34;:50,&#34;autoPan&#34;:true,&#34;keepInView&#34;:false,&#34;closeButton&#34;:false,&#34;className&#34;:&#34;&#34;},&#34;BDI Code ClubRoom InfoBig Data Institute, Old Road Campus&#34;,null,null,null,null,{&#34;interactive&#34;:false,&#34;permanent&#34;:false,&#34;direction&#34;:&#34;auto&#34;,&#34;opacity&#34;:1,&#34;offset&#34;:[0,0],&#34;textsize&#34;:&#34;10px&#34;,&#34;textOnly&#34;:false,&#34;className&#34;:&#34;&#34;,&#34;sticky&#34;:true},null]},{&#34;method&#34;:&#34;addProviderTiles&#34;,&#34;args&#34;:[&#34;OpenStreetMap.Mapnik&#34;,null,null,{&#34;errorTileUrl&#34;:&#34;&#34;,&#34;noWrap&#34;:false,&#34;detectRetina&#34;:false}]},{&#34;method&#34;:&#34;addMiniMap&#34;,&#34;args&#34;:[null,null,&#34;bottomright&#34;,150,150,19,19,-5,false,false,false,false,false,false,{&#34;color&#34;:&#34;#ff7800&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false},{&#34;color&#34;:&#34;#000000&#34;,&#34;weight&#34;:1,&#34;clickable&#34;:false,&#34;opacity&#34;:0,&#34;fillOpacity&#34;:0},{&#34;hideText&#34;:&#34;Hide MiniMap&#34;,&#34;showText&#34;:&#34;Show MiniMap&#34;},[]]}],&#34;limits&#34;:{&#34;lat&#34;:[51.752802,51.752802],&#34;lng&#34;:[-1.214885,-1.214885]}},&#34;evals&#34;:[],&#34;jsHooks&#34;:[]}</description>
+    </item>
+    
+    <item>
+      <title>BDI Code Club</title>
+      <link>/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/page/about/</guid>
+      <description>Some info here.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+---
+title: "BDI Code Clinic"
+subtitle: "About the Club"
+---
+ 
+The Big Data Institute (BDI) is an interdisciplinary research institute that focuses on the analysis of large, complex, heterogeneous data sets for research into the causes and consequences, prevention and treatment of disease.
+Our coding club’s ambition is to create a fun and supportive environment where we develop programming and statistics skills together, across programming languages.
+We have a many experts in working with Python, R, C++ and many more languages with vast knowledge of cloud computing and HPC and we want to replace statistics anxiety and code fear with inspiration and motivation to learn.
+We hope to share our experiences with anyone in the Oxford community and hope you join us during our upcoming events!
+
+### When:
+Our meetings for Michealmas term are:
+Friday, 4th October 2019 12:45 - 2:00pm
+Monday, 11th November 2019 12:45 - 2:00pm
+Friday, 13th December 2019 12:45 - 2:00pm
+
+and we always have free pizza!
+
+### Where:
+
+```{r leaflet-map, echo=FALSE, eval=TRUE}
+library(leaflet)
+content <- paste(sep = "<br/>",
+  "<b><a href='https://bdicodeclub.netlify.com/'>BDI Code Club</a></b>",
+  "Room Info",
+  "Big Data Institute, Old Road Campus"
+)
+
+lat <- 51.752802; lng <- -1.214885
+bgm <- providers$OpenStreetMap.Mapnik
+
+icn <- icons <- awesomeIcons(
+  icon = 'fa-location-arrow',
+  iconColor = "#FFFFFF",
+  library = 'fa',
+  markerColor = "darkblue"
+)
+
+m <- leaflet() %>% 
+  setView(lng = lng, lat = lat, zoom = 18) %>% 
+  addAwesomeMarkers(lng, lat, popup = content, icon = icn,
+             options = popupOptions(closeButton = FALSE))  %>% 
+  # addTiles() %>% 
+  addProviderTiles(bgm) %>% 
+  addMiniMap()
+m
+```
