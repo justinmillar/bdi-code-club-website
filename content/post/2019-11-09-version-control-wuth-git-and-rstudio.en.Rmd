@@ -1,0 +1,70 @@
+---
+title: Version control with Git and RStudio
+author: Justin Millar
+date: '2019-11-09'
+slug: version-control-git-rstudio
+categories: []
+tags:
+  - git
+  - github
+  - rstudio
+type: ''
+subtitle: ''
+image: ''
+draft: TRUE
+---
+
+## Some Background
+
+### Why Git?
+
+![](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+
+
+
+### What is Git?
+
+
+
+### The general Git workflow 
+
+
+
+
+### What's the difference Git and GitHub?
+
+
+
+## Getting Started with Git, GitHub, and RStudio
+
+### Installing Git
+
+
+### Creating a GitHub account
+
+
+### Starting a new project with Git
+
+
+#### Beginning from RStudio
+
+
+#### Beginning from GitHub
+
+## Other 
+
+## Helpful Resource
+
+### R-centered links
+
+* [Happy Git and GitHub for the useR](https://happygitwithr.com/index.html) from Jenny Bryan and Jim Hester is a great place to continue from here, with a focus on R, RStudio, and GitHub. 
+
+* [Excuse me, do you have a momment to talk about version control](https://peerj.com/preprints/3159/) by Jenny Bryan is a great preprint on the utility of Git for reproducible research. 
+
+* [Using version control with Git and SVN](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN) by Nathan Stephens is a nice resource, specifically for integrating Git and RStudio. 
+
+* [Git and GitHub](http://r-pkgs.had.co.nz/git.html#git-pull) chapter from Hadley Wickham's *R packages* book is another great resource that covers more indepth topics (including pull requests). 
+
+### General Git
+
+* 

@@ -5,10 +5,19 @@
     <link>/</link>
     <description>Recent content on BDI Code Club</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Version control with Git and RStudio</title>
+      <link>/post/version-control-git-rstudio/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/version-control-git-rstudio/</guid>
+      <description>Some BackgroundWhy Git?What is Git?The general Git workflowWhat’s the difference Git and GitHub?Getting Started with Git, GitHub, and RStudioInstalling GitCreating a GitHub accountStarting a new project with GitBeginning from RStudioBeginning from GitHubOtherHelpful ResourceR-centered linksHappy Git and GitHub for the useR from Jenny Bryan and Jim Hester is a great place to continue from here, with a focus on R, RStudio, and GitHub.</description>
+    </item>
     
     <item>
       <title>Utilizing the maximum computation power of your computer on R</title>
